@@ -1,0 +1,732 @@
+@media ( max-width: 1200px)
+    .container
+        max-width: 1200px
+    header
+        padding: 0
+        ul
+            margin-left: 15px
+        .phone-logo
+            right: 233px
+        .mobile-phone
+            right: 41px
+
+@media ( max-width: 1024px)
+    header 
+        .header-logo-title2
+            display: none
+        .header-logo-title1
+            margin-top: 27px
+            font-size: 18px
+        ul
+            li
+                padding: 35px 25px 31px 25px
+                font-size: 10px
+        .header-logo-img
+            margin-top: 17px
+            margin-left: 30px
+        .phone-logo 
+            right: 257px
+            top: 25px
+        .mobile-phone
+            right: 90px
+            font-size: 19px
+            .btn-send
+                width: 134px
+                height: 43px
+                font-size: 14px
+            .input-forms 
+                input
+                    width: 163px
+                    height: 31px
+
+        .arrow-right
+            right: 22px
+        .arrow-left
+            left: 32px
+
+
+    .benefits
+        min-height: 638px
+    .about 
+        .container 
+            .about-descr 
+                p
+                    width: 55%
+                    font-size: 18px
+@media (max-width: 768px)
+    header
+        max-width: 100%
+        opacity: 0.95
+        .phone-logo
+            right: 31%
+            top: 47%
+        .mobile-phone
+            right: 78px
+            top: 31px
+        .menu
+            display: flex
+            position: fixed
+            justify-content: center
+            align-items: center
+            top: 0
+            right: -100%
+            width: 50%
+            height: 100vh
+            padding: 20px 15px
+            background-color: #4169c1
+            transition: 0.6s all
+            z-index: 1
+            &_active
+                right: 0
+            ul
+                display: flex
+                flex-direction: column
+                li
+                    a
+                        color: white
+                        opacity: 1
+                        font-size: 40px
+                        font-weight: 700
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 33px
+        width: 20px
+        height: 18px
+        z-index: 6
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: black
+            margin-top: 4px
+            transition: 0.5s all
+        &_active
+            top: 27px
+            z-index: 2
+            span
+                margin-top: -2px
+                &:nth-child(1)
+                    transform: rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: rotate(45deg)
+    .top-free-consultation 
+        height: 667px
+        .container 
+            h1
+                font-size: 38px
+                width: 620px
+                margin: 0 auto
+                margin-top: 166px
+            h2
+                width: 460px
+                margin: 0 auto
+
+    .input-section 
+        .input 
+            width: 90%
+            left: 38px
+            height: 454px
+            top: -251px
+            .btn-send
+                margin-left: 0px
+                width: 85%
+            .free-cons
+                margin-top: 60px
+                margin-left: 58px
+                width: 348px
+            .input-forms
+                flex-direction: column
+                margin-left: 58px
+                margin-top: 0px
+                input
+                    width: 88%
+                    height: 45px
+                .input-email
+                    input
+                        width: 85%
+                        height: 45px
+                .input-name, .input-phone, .input-email
+                    margin-top: 16px
+    .geography
+        height: 991px
+        .geography-text
+            h2
+                margin-left: 42px
+                font-size: 30px
+            h3
+                margin-left: 42px
+                font-size: 20px
+            .geography-descr
+                margin-left: 42px
+                font-family: 'GeometriaLight'
+        .geography-img
+            left: 0%
+            top: 604px
+            width: 100%
+            height: 405px
+    .slider-portfolio 
+        min-height: 1042px
+        .slider
+            .arrow-left
+                top: 820px  
+                left: 12%
+            .arrow-right
+                top: 820px  
+                right: 9%
+            .slide
+                flex-direction: column
+                .computer-img
+                    display: none
+                .mobile-img
+                    display: flex
+                    width: 620px
+                    height: 340px
+                .slide-descr
+                    margin-top: 0
+                    width: 620px
+                    height: 420px
+                    h3
+                        margin-left: 60px
+                    .capital-remont
+                        margin-top: 9px
+                        margin-left: 60px
+                    .done-work
+                        margin-left: 60px
+                        margin-top: 19px
+                    .row
+                        width: 88%
+                        padding-left: 10%
+                    .submit
+                        margin-top: 38px
+                        margin-left: 60px
+                        width: 67%
+        .slider-title 
+            h2
+                font-size: 30px
+                padding-top: 59px
+    .about 
+        .container 
+            .about-descr
+                background: url('../img/img-about-mobile.png') center center/cover no-repeat
+                width: 100%
+                height: 875px
+                h3
+                    margin-left: 12%
+                    margin-top: 55px
+                p
+                    margin-left: 12%
+                    width: 441px
+                    font-size: 16px
+                    line-height: 169.46%
+            .about-title 
+                h2
+                    margin-left: 40px
+    .benefits
+        height: 713px
+    footer
+        display: flex
+        height: 180px
+        z-index: -2
+        .container
+            flex-direction: column
+            .footer-logo
+                margin: 0
+                display: flex
+                color: white
+                text-decoration: underline
+                width: 180px
+        p
+            z-index: 5
+    .contacts 
+        .questions
+            bottom: -311px
+            height: 592px
+            width: 45%
+            left: 50%
+            flex-direction: column
+            h2
+                left: 35px
+                margin-top: 40px
+            .check-button
+                z-index: 6
+                display: flex
+                flex-direction: column-reverse
+                .input-check
+                    margin-left: 0
+                    padding-left: 0
+                .send
+                    width: 106%
+                    margin: 0 auto
+                    margin-left: -35px
+                    margin-top: 10px
+            .questions-inputs
+                flex-direction: column
+                .input-forms
+                    margin: 0
+                    margin-top: 59px
+                    margin-left: 40px
+                    .input-name, .input-phone, .input-email
+                        input
+                            width: 93%
+                .input-forms-comment
+                    .email
+                        margin: 0
+                        margin-top: 8px
+                        margin-left: 40px
+                    textarea
+                        margin: 0
+                        padding-top: 6px
+                        margin-left: 40px
+                        width: 82.5%
+                        height: 143px
+@media (max-width:640px)
+    header
+        .phone-logo
+            right: 38%
+    .slider-portfolio 
+        .slider 
+            .slide
+                margin-left: 0
+    .benefits
+        height: 920px
+    .contacts 
+        .questions 
+            .check-button
+                padding-left: 31px
+                .send
+                    margin-left: 0
+                    width: 97%
+@media (max-width:425px)
+    header
+        .header-logo-img
+            margin-top: 24px
+            margin-left: 0px
+        .header-logo-title1
+            margin-top: 32px
+        .phone-logo
+            display: none
+        .mobile-phone
+            display: none
+
+    .top-free-consultation 
+        .container 
+            h1
+                width:100%
+                font-size: 30px
+                letter-spacing: 0.015em
+                line-height: 34px
+            .h1-comp
+                display: none
+            .h1-mobile
+                display: flex
+            h2
+                width: 286px
+                font-size: 16px
+                margin-top: 30px
+    .input-section 
+        .input
+            left: 15px
+            top: -218px
+            .free-cons
+                margin-left: 29px
+                margin-top: 40px
+                width: 200px
+            .input-forms
+                margin-left: 29px
+                .input-email 
+                    input
+                        width: 81%
+    .geography
+        height: 875px
+        .geography-img
+            margin-top: 10px
+
+            height: 289px
+        .geography-text 
+            h2
+                font-size: 26px
+                margin-left: 8px
+            h3
+                margin-left: 8px
+                font-size: 18px
+                margin-top: 18px
+                width: 279px
+                font-size: 17px
+                margin-top: 5px
+            .geography-descr
+                margin-left: 8px
+                width: 286px
+                font-size: 14px
+    .slider-portfolio 
+        min-height: 997px
+        .slider-title
+            h2
+                padding-left: 0
+        .slider
+            .arrow-left
+                height: 58px
+                width: 26px
+            .arrow-right
+                height: 58px
+                width: 26px
+                right: 10%
+            .slide 
+                .mobile-img
+                    width: 402px
+                    height: 194px
+                .slide-descr
+                    width: 402px
+                    height: 530px
+                    h3
+                        margin-left: 28px
+                        margin-top: 30px
+                        font-size: 20px
+                    .capital-remont
+                         margin-left: 28px
+                         margin-top: 12px
+                         font-size: 16px
+                    .done-work
+                        margin-left: 28px
+                        font-size: 16px
+                        line-height: 20px
+                    .row
+                        .check-descr
+                            font-family: 'GeometriaLight'
+                            font-size: 14px
+                            line-height: 20px
+                            font-weight: normal
+                    .submit
+                        margin-left: 23px
+                        width: 87%
+                        font-size: 16px
+    .benefits
+        height: 1279px
+        .container 
+            .benefits-card
+                flex-direction: column
+                .benefits-cards-img
+                    margin-left: 0
+                .benefits-cards-title
+                    padding-left: 0
+                    font-size: 20px
+                .benefits-cards-subtitle
+                    padding-left: 0
+                    font-size: 14px
+            h2
+                font-size: 26px
+                line-height: 33px
+    .about
+        height: 1035px 
+        .container 
+            .about-descr
+                background: url(../img/img-about-minimobile.png) center center/cover no-repeat
+                p
+                    width: 354px
+                    margin-left: 31px
+                    font-size: 16px
+                    line-height: 22px
+                h3
+                    margin-left: 31px
+            .about-title 
+                h2
+                    margin-left: 0
+                    font-size: 26px
+                    margin-top: 62px
+    .contacts
+        height: 1000px
+        .questions
+            width: 100%
+            left: 0
+            bottom: -700px
+    header 
+        .menu 
+            ul 
+                li 
+                    a
+                       font-size: 16px 
+                    
+
+@media (max-width:375px)
+    .header-logo-img
+        margin-top: 24px
+        margin-left: 0px
+        .header-logo-title1
+            margin-top: 32px
+        .phone-logo
+            display: none
+        .mobile-phone
+            display: none
+
+    .top-free-consultation 
+        .container 
+            h1
+                width:100%
+                font-size: 30px
+                letter-spacing: 0.015em
+                line-height: 34px
+            .h1-comp
+                display: none
+            .h1-mobile
+                display: flex
+            h2
+                width: 286px
+                font-size: 16px
+                margin-top: 30px
+    .input-section 
+        .input
+            left: 15px
+            top: -218px
+            .free-cons
+                margin-left: 29px
+                margin-top: 40px
+                width: 200px
+            .input-forms
+                margin-left: 29px
+                .input-email 
+                    input
+                        width: 81%
+    .geography
+        height: 875px
+        .geography-img
+            margin-top: 10px
+
+            height: 289px
+        .geography-text 
+            h2
+                font-size: 26px
+                margin-left: 8px
+            h3
+                margin-left: 8px
+                font-size: 18px
+                margin-top: 18px
+                width: 279px
+                font-size: 17px
+                margin-top: 5px
+            .geography-descr
+                margin-left: 8px
+                width: 286px
+                font-size: 14px
+    .slider-portfolio 
+        min-height: 997px
+        .slider-title
+            h2
+                padding-left: 0
+        .slider
+            .arrow-left
+                height: 58px
+                width: 26px
+            .arrow-right
+                height: 58px
+                width: 26px
+                right: 10%
+            .slide 
+                .mobile-img
+                    width: 347px
+                    height: 194px
+                .slide-descr
+                    width: 347px
+                    height: 530px
+                    h3
+                        margin-left: 28px
+                        margin-top: 30px
+                        font-size: 20px
+                    .capital-remont
+                         margin-left: 28px
+                         margin-top: 12px
+                         font-size: 16px
+                    .done-work
+                        margin-left: 28px
+                        font-size: 16px
+                        line-height: 20px
+                    .row
+                        .check-descr
+                            font-family: 'GeometriaLight'
+                            font-size: 14px
+                            line-height: 20px
+                            font-weight: normal
+                    .submit
+                        margin-left: 23px
+                        width: 87%
+                        font-size: 16px
+    .benefits
+        height: 1320px
+        .container 
+            .benefits-card
+                flex-direction: column
+                .benefits-cards-img
+                    margin-left: 0
+                .benefits-cards-title
+                    padding-left: 0
+                    font-size: 20px
+                .benefits-cards-subtitle
+                    padding-left: 0
+                    font-size: 14px
+            h2
+                font-size: 26px
+                line-height: 33px
+    .about
+        height: 1035px 
+        .container 
+            .about-descr
+                background: url(../img/img-about-minimobile.png) center center/cover no-repeat
+                p
+                    width: 310px
+                    margin-left: 31px
+                    font-size: 16px
+                    line-height: 22px
+                h3
+                    margin-left: 31px
+            .about-title 
+                h2
+                    margin-left: 0
+                    font-size: 26px
+                    margin-top: 62px
+    .contacts
+        height: 1000px
+        .questions
+            width: 100%
+            left: 0
+            bottom: -700px
+    header 
+        .menu 
+            ul 
+                li 
+                    a
+                       font-size: 16px 
+
+@media (max-width: 320px)
+    header
+        .header-logo-img
+            margin-top: 24px
+            margin-left: 0px
+        .header-logo-title1
+            margin-top: 32px
+        .phone-logo
+            display: none
+        .mobile-phone
+            display: none
+
+    .top-free-consultation 
+        .container 
+            h1
+                width:100%
+                font-size: 30px
+                letter-spacing: 0.015em
+                line-height: 34px
+            .h1-comp
+                display: none
+            .h1-mobile
+                display: flex
+            h2
+                width: 286px
+                font-size: 16px
+                margin-top: 30px
+    .input-section 
+        .input
+            left: 15px
+            top: -218px
+            .free-cons
+                margin-left: 29px
+                margin-top: 40px
+                width: 200px
+            .input-forms
+                margin-left: 29px
+                .input-email 
+                    input
+                        width: 81%
+    .geography
+        height: 875px
+        .geography-img
+            height: 289px
+        .geography-text 
+            h2
+                font-size: 26px
+                margin-left: 8px
+            h3
+                margin-left: 8px
+                font-size: 18px
+                margin-top: 18px
+                width: 279px
+                font-size: 17px
+                margin-top: 5px
+            .geography-descr
+                margin-left: 8px
+                width: 286px
+                font-size: 14px
+    .slider-portfolio 
+        min-height: 997px
+        .slider-title
+            h2
+                padding-left: 0
+        .slider
+            .arrow-left
+                height: 58px
+                width: 26px
+            .arrow-right
+                height: 58px
+                width: 26px
+                right: 10%
+            .slide 
+                .mobile-img
+                    width: 283px
+                    height: 194px
+                .slide-descr
+                    width: 283px
+                    height: 530px
+                    h3
+                        margin-left: 28px
+                        margin-top: 30px
+                        font-size: 20px
+                    .capital-remont
+                         margin-left: 28px
+                         margin-top: 12px
+                         font-size: 16px
+                    .done-work
+                        margin-left: 28px
+                        font-size: 16px
+                        line-height: 20px
+                    .row
+                        .check-descr
+                            font-family: 'GeometriaLight'
+                            font-size: 14px
+                            line-height: 20px
+                            font-weight: normal
+                    .submit
+                        margin-left: 23px
+                        width: 81%
+                        font-size: 16px
+    .benefits
+        height: 1435px
+        .container 
+            .benefits-card
+                flex-direction: column
+                .benefits-cards-img
+                    margin-left: 0
+                .benefits-cards-title
+                    padding-left: 0
+                    font-size: 20px
+                .benefits-cards-subtitle
+                    padding-left: 0
+                    font-size: 14px
+            h2
+                font-size: 26px
+                line-height: 33px
+    .about
+        height: 1035px 
+        .container 
+            .about-descr
+                background: url(../img/img-about-minimobile.png) center center/cover no-repeat
+                p
+                    width: 230px
+                    margin-left: 31px
+                    font-size: 14px
+                    line-height: 22px
+            .about-title 
+                h2
+                    margin-left: 0
+                    font-size: 26px
+                    margin-top: 62px
